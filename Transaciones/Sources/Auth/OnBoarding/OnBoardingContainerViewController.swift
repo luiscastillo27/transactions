@@ -23,7 +23,7 @@ class OnBoardingContainerViewController: UIViewController {
             return
         }
         
-        destination.pageController = pageControl
+        destination.pageControl = pageControl
     }
 
 }

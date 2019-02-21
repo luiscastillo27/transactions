@@ -1,26 +1,26 @@
 //
 //  OnBoardingStepsViewController.swift
-//  Transaciones
+//  PlatziFinanzas
 //
-//  Created by Luis on 2/21/19.
-//  Copyright © 2019 Luis. All rights reserved.
+//  Created by Andres Silva on 11/14/18.
+//  Copyright © 2018 Platzi. All rights reserved.
 //
 
 import UIKit
 
 class OnBoardingStepsViewController: UIViewController {
-
-    @IBOutlet weak var image: UIImageView!
-    @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
-    public var item: OnBoardingItem?
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var onBoaringImage: UIImageView!
+    
+    var item: OnBoardingItem?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         titleLabel.text = item?.title
         descriptionLabel.text = item?.description
-        image.image = UIImage( named: item?.image ?? "" )
-        // Do any additional setup after loading the view.
+        onBoaringImage.image = UIImage(named: item?.imageName ?? "")
     }
     
 

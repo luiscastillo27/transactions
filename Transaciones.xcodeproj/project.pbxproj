@@ -22,10 +22,11 @@
 		A051C0BC221EA5810029BDA4 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051C0BB221EA5810029BDA4 /* DesignableButton.swift */; };
 		A08EC90E221F3FC10062A52E /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08EC90D221F3FC10062A52E /* TransactionsViewController.swift */; };
 		A08EC910221F3FCA0062A52E /* EmptyState.xib in Resources */ = {isa = PBXBuildFile; fileRef = A08EC90F221F3FCA0062A52E /* EmptyState.xib */; };
-		A08EC91F221F409B0062A52E /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08EC91B221F409B0062A52E /* OnBoardingContainerViewController.swift */; };
-		A08EC920221F409B0062A52E /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08EC91C221F409B0062A52E /* OnBoardingStepsViewController.swift */; };
-		A08EC921221F409B0062A52E /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08EC91D221F409B0062A52E /* OnBoarding.storyboard */; };
-		A08EC922221F409B0062A52E /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08EC91E221F409B0062A52E /* OnBoardingViewController.swift */; };
+		A08EC926221F47A80062A52E /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08EC925221F47A80062A52E /* TabBarViewController.swift */; };
+		A08EC933221F48590062A52E /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08EC92F221F48590062A52E /* OnBoardingViewController.swift */; };
+		A08EC934221F48590062A52E /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08EC930221F48590062A52E /* OnBoardingContainerViewController.swift */; };
+		A08EC935221F48590062A52E /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08EC931221F48590062A52E /* OnBoardingStepsViewController.swift */; };
+		A08EC936221F48590062A52E /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08EC932221F48590062A52E /* OnBoarding.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,10 +47,11 @@
 		A051C0BB221EA5810029BDA4 /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		A08EC90D221F3FC10062A52E /* TransactionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		A08EC90F221F3FCA0062A52E /* EmptyState.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyState.xib; sourceTree = "<group>"; };
-		A08EC91B221F409B0062A52E /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnBoardingContainerViewController.swift; path = "../../../../../../../../Downloads/interfaces-ios-clase33/PlatziFinanzas/Application/Authentication/OnBoarding/OnBoardingContainerViewController.swift"; sourceTree = "<group>"; };
-		A08EC91C221F409B0062A52E /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnBoardingStepsViewController.swift; path = "../../../../../../../../Downloads/interfaces-ios-clase33/PlatziFinanzas/Application/Authentication/OnBoarding/OnBoardingStepsViewController.swift"; sourceTree = "<group>"; };
-		A08EC91D221F409B0062A52E /* OnBoarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = OnBoarding.storyboard; path = "../../../../../../../../Downloads/interfaces-ios-clase33/PlatziFinanzas/Application/Authentication/OnBoarding/OnBoarding.storyboard"; sourceTree = "<group>"; };
-		A08EC91E221F409B0062A52E /* OnBoardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnBoardingViewController.swift; path = "../../../../../../../../Downloads/interfaces-ios-clase33/PlatziFinanzas/Application/Authentication/OnBoarding/OnBoardingViewController.swift"; sourceTree = "<group>"; };
+		A08EC925221F47A80062A52E /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		A08EC92F221F48590062A52E /* OnBoardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		A08EC930221F48590062A52E /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
+		A08EC931221F48590062A52E /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
+		A08EC932221F48590062A52E /* OnBoarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			children = (
 				A051C08F221E84540029BDA4 /* Main.storyboard */,
 				A051C08D221E84540029BDA4 /* ViewController.swift */,
+				A08EC925221F47A80062A52E /* TabBarViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -218,10 +221,10 @@
 		A051C0C2221EB08E0029BDA4 /* OnBoarding */ = {
 			isa = PBXGroup;
 			children = (
-				A08EC91D221F409B0062A52E /* OnBoarding.storyboard */,
-				A08EC91B221F409B0062A52E /* OnBoardingContainerViewController.swift */,
-				A08EC91C221F409B0062A52E /* OnBoardingStepsViewController.swift */,
-				A08EC91E221F409B0062A52E /* OnBoardingViewController.swift */,
+				A08EC932221F48590062A52E /* OnBoarding.storyboard */,
+				A08EC930221F48590062A52E /* OnBoardingContainerViewController.swift */,
+				A08EC931221F48590062A52E /* OnBoardingStepsViewController.swift */,
+				A08EC92F221F48590062A52E /* OnBoardingViewController.swift */,
 			);
 			path = OnBoarding;
 			sourceTree = "<group>";
@@ -295,7 +298,7 @@
 				A051C0A9221E94400029BDA4 /* Add.storyboard in Resources */,
 				A051C0AF221E94AB0029BDA4 /* Statistics.storyboard in Resources */,
 				A051C091221E84540029BDA4 /* Main.storyboard in Resources */,
-				A08EC921221F409B0062A52E /* OnBoarding.storyboard in Resources */,
+				A08EC936221F48590062A52E /* OnBoarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,13 +309,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A08EC934221F48590062A52E /* OnBoardingContainerViewController.swift in Sources */,
+				A08EC926221F47A80062A52E /* TabBarViewController.swift in Sources */,
 				A08EC90E221F3FC10062A52E /* TransactionsViewController.swift in Sources */,
-				A08EC920221F409B0062A52E /* OnBoardingStepsViewController.swift in Sources */,
-				A08EC922221F409B0062A52E /* OnBoardingViewController.swift in Sources */,
 				A051C08E221E84540029BDA4 /* ViewController.swift in Sources */,
-				A08EC91F221F409B0062A52E /* OnBoardingContainerViewController.swift in Sources */,
+				A08EC933221F48590062A52E /* OnBoardingViewController.swift in Sources */,
 				A051C08C221E84540029BDA4 /* AppDelegate.swift in Sources */,
 				A051C0BC221EA5810029BDA4 /* DesignableButton.swift in Sources */,
+				A08EC935221F48590062A52E /* OnBoardingStepsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

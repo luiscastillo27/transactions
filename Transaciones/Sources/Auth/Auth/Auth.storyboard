@@ -47,11 +47,11 @@
                                     <constraint firstItem="tQj-Yu-A3A" firstAttribute="centerX" secondItem="Cj4-EV-U5j" secondAttribute="centerX" id="y6e-57-EIc"/>
                                 </constraints>
                             </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xls-Xf-rHR">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xls-Xf-rHR">
                                 <rect key="frame" x="0.0" y="20" width="320" height="483"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eRo-C5-Tb4">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="570"/>
+                                        <rect key="frame" x="0.0" y="-20" width="320" height="570"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="w5o-Ho-fhl" userLabel="image">
                                                 <rect key="frame" x="40" y="20" width="240" height="128"/>
@@ -231,7 +231,7 @@
                                                 </constraints>
                                             </stackView>
                                         </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="OZC-hc-cuL" firstAttribute="top" secondItem="uGf-SD-ua8" secondAttribute="bottom" constant="20" id="CN2-nc-G16"/>
                                             <constraint firstItem="uqd-b9-AL9" firstAttribute="leading" secondItem="eRo-C5-Tb4" secondAttribute="leading" id="HPp-Vy-jbS"/>
@@ -252,7 +252,7 @@
                                 <constraints>
                                     <constraint firstItem="eRo-C5-Tb4" firstAttribute="leading" secondItem="xls-Xf-rHR" secondAttribute="leading" id="LUJ-xJ-mAC"/>
                                     <constraint firstAttribute="trailing" secondItem="eRo-C5-Tb4" secondAttribute="trailing" id="Xe6-CO-tOP"/>
-                                    <constraint firstItem="eRo-C5-Tb4" firstAttribute="top" secondItem="xls-Xf-rHR" secondAttribute="top" id="x6f-NL-kcd"/>
+                                    <constraint firstItem="eRo-C5-Tb4" firstAttribute="top" secondItem="xls-Xf-rHR" secondAttribute="top" constant="-20" id="x6f-NL-kcd"/>
                                     <constraint firstAttribute="bottom" secondItem="eRo-C5-Tb4" secondAttribute="bottom" id="yco-Qg-hxq"/>
                                 </constraints>
                             </scrollView>

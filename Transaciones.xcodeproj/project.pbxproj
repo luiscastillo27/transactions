@@ -27,6 +27,9 @@
 		A08EC934221F48590062A52E /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08EC930221F48590062A52E /* OnBoardingContainerViewController.swift */; };
 		A08EC935221F48590062A52E /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08EC931221F48590062A52E /* OnBoardingStepsViewController.swift */; };
 		A08EC936221F48590062A52E /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08EC932221F48590062A52E /* OnBoarding.storyboard */; };
+		A0D4EDF7221F81D3004CF5E6 /* TransactionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0D4EDF6221F81D3004CF5E6 /* TransactionsCell.xib */; };
+		A0D4EDF9221F8328004CF5E6 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D4EDF8221F8328004CF5E6 /* BudgetViewController.swift */; };
+		A0D4EDFB221F935F004CF5E6 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D4EDFA221F935F004CF5E6 /* DesignableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +55,9 @@
 		A08EC930221F48590062A52E /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
 		A08EC931221F48590062A52E /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
 		A08EC932221F48590062A52E /* OnBoarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		A0D4EDF6221F81D3004CF5E6 /* TransactionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsCell.xib; sourceTree = "<group>"; };
+		A0D4EDF8221F8328004CF5E6 /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
+		A0D4EDFA221F935F004CF5E6 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +159,7 @@
 				A051C0AC221E94910029BDA4 /* Transactions.storyboard */,
 				A08EC90F221F3FCA0062A52E /* EmptyState.xib */,
 				A08EC90D221F3FC10062A52E /* TransactionsViewController.swift */,
+				A0D4EDF6221F81D3004CF5E6 /* TransactionsCell.xib */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -178,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				A051C0B0221E94DC0029BDA4 /* Budget.storyboard */,
+				A0D4EDF8221F8328004CF5E6 /* BudgetViewController.swift */,
 			);
 			path = Budget;
 			sourceTree = "<group>";
@@ -193,11 +201,11 @@
 		A051C0B7221E970B0029BDA4 /* Secctions */ = {
 			isa = PBXGroup;
 			children = (
-				A051C0A7221E93E80029BDA4 /* Statistics */,
+				A051C0A3221E92710029BDA4 /* Transactions */,
 				A051C0A6221E93D00029BDA4 /* Budget */,
 				A051C0A5221E93C80029BDA4 /* Add */,
-				A051C0A3221E92710029BDA4 /* Transactions */,
 				A051C0A1221E925B0029BDA4 /* Profile */,
+				A051C0A7221E93E80029BDA4 /* Statistics */,
 			);
 			path = Secctions;
 			sourceTree = "<group>";
@@ -206,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				A051C0BB221EA5810029BDA4 /* DesignableButton.swift */,
+				A0D4EDFA221F935F004CF5E6 /* DesignableView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,6 +304,7 @@
 				A051C0B9221EA0BB0029BDA4 /* Colors.xcassets in Resources */,
 				A08EC910221F3FCA0062A52E /* EmptyState.xib in Resources */,
 				A051C0AD221E94910029BDA4 /* Transactions.storyboard in Resources */,
+				A0D4EDF7221F81D3004CF5E6 /* TransactionsCell.xib in Resources */,
 				A051C0A9221E94400029BDA4 /* Add.storyboard in Resources */,
 				A051C0AF221E94AB0029BDA4 /* Statistics.storyboard in Resources */,
 				A051C091221E84540029BDA4 /* Main.storyboard in Resources */,
@@ -313,9 +323,11 @@
 				A08EC926221F47A80062A52E /* TabBarViewController.swift in Sources */,
 				A08EC90E221F3FC10062A52E /* TransactionsViewController.swift in Sources */,
 				A051C08E221E84540029BDA4 /* ViewController.swift in Sources */,
+				A0D4EDF9221F8328004CF5E6 /* BudgetViewController.swift in Sources */,
 				A08EC933221F48590062A52E /* OnBoardingViewController.swift in Sources */,
 				A051C08C221E84540029BDA4 /* AppDelegate.swift in Sources */,
 				A051C0BC221EA5810029BDA4 /* DesignableButton.swift in Sources */,
+				A0D4EDFB221F935F004CF5E6 /* DesignableView.swift in Sources */,
 				A08EC935221F48590062A52E /* OnBoardingStepsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

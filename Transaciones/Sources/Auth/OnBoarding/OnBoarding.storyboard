@@ -65,7 +65,7 @@
         <!--On Boarding Container View Controller-->
         <scene sceneID="k77-G8-rTJ">
             <objects>
-                <viewController id="3gJ-QX-7XN" customClass="OnBoardingContainerViewController" customModule="Transaciones" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OnBoarding" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3gJ-QX-7XN" customClass="OnBoardingContainerViewController" customModule="Transaciones" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OA5-yy-eon">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -92,7 +92,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="bUu-IJ-o9a" kind="presentation" identifier="" id="Xly-Ra-buK"/>
+                                    <segue destination="bUu-IJ-o9a" kind="presentation" identifier="goAuth" id="Xly-Ra-buK"/>
                                 </connections>
                             </button>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="dgm-ye-m1i">

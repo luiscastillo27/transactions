@@ -8,8 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2EBE9FA179A290A75B3B15D3 /* Pods_Transaciones.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1245950F76E988FEA9BE2FC7 /* Pods_Transaciones.framework */; };
+		A00311A8221FCD1D0026857D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A00311A7221FCD1D0026857D /* GoogleService-Info.plist */; };
+		A00311AA221FCD2B0026857D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A00311A9221FCD2B0026857D /* Default-568h@2x.png */; };
+		A00311AC221FCEF00026857D /* SecondLaunch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00311AB221FCEF00026857D /* SecondLaunch.storyboard */; };
+		A00311AE221FCF5C0026857D /* SecondLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00311AD221FCF5C0026857D /* SecondLaunchViewController.swift */; };
+		A00311B0221FCFBF0026857D /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = A00311AF221FCFBF0026857D /* loading.json */; };
+		A00311B2221FD0C60026857D /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00311B1221FD0C60026857D /* AuthViewController.swift */; };
 		A051C08C221E84540029BDA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051C08B221E84540029BDA4 /* AppDelegate.swift */; };
-		A051C08E221E84540029BDA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A051C08D221E84540029BDA4 /* ViewController.swift */; };
 		A051C091221E84540029BDA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A051C08F221E84540029BDA4 /* Main.storyboard */; };
 		A051C093221E84570029BDA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A051C092221E84570029BDA4 /* Assets.xcassets */; };
 		A051C096221E84570029BDA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A051C094221E84570029BDA4 /* LaunchScreen.storyboard */; };
@@ -31,15 +36,19 @@
 		A0D4EDF7221F81D3004CF5E6 /* TransactionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0D4EDF6221F81D3004CF5E6 /* TransactionsCell.xib */; };
 		A0D4EDF9221F8328004CF5E6 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D4EDF8221F8328004CF5E6 /* BudgetViewController.swift */; };
 		A0D4EDFB221F935F004CF5E6 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D4EDFA221F935F004CF5E6 /* DesignableView.swift */; };
-		A0D4EDFD221F9E73004CF5E6 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = A0D4EDFC221F9E73004CF5E6 /* Cartfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1245950F76E988FEA9BE2FC7 /* Pods_Transaciones.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Transaciones.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E2C0F0615A06435DB4D8DC9 /* Pods-Transaciones.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transaciones.release.xcconfig"; path = "Target Support Files/Pods-Transaciones/Pods-Transaciones.release.xcconfig"; sourceTree = "<group>"; };
+		A00311A7221FCD1D0026857D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A00311A9221FCD2B0026857D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A00311AB221FCEF00026857D /* SecondLaunch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondLaunch.storyboard; sourceTree = "<group>"; };
+		A00311AD221FCF5C0026857D /* SecondLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondLaunchViewController.swift; sourceTree = "<group>"; };
+		A00311AF221FCFBF0026857D /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		A00311B1221FD0C60026857D /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		A051C088221E84540029BDA4 /* Transaciones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transaciones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A051C08B221E84540029BDA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A051C08D221E84540029BDA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A051C090221E84540029BDA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A051C092221E84570029BDA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A051C095221E84570029BDA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,7 +71,6 @@
 		A0D4EDF6221F81D3004CF5E6 /* TransactionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsCell.xib; sourceTree = "<group>"; };
 		A0D4EDF8221F8328004CF5E6 /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
 		A0D4EDFA221F935F004CF5E6 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
-		A0D4EDFC221F9E73004CF5E6 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		ADD47253383784372CF3B35D /* Pods-Transaciones.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transaciones.debug.xcconfig"; path = "Target Support Files/Pods-Transaciones/Pods-Transaciones.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,10 +86,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A00311A6221FCD0B0026857D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A00311A9221FCD2B0026857D /* Default-568h@2x.png */,
+				A051C08B221E84540029BDA4 /* AppDelegate.swift */,
+				A00311A7221FCD1D0026857D /* GoogleService-Info.plist */,
+				A051C097221E84570029BDA4 /* Info.plist */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		A051C07F221E84540029BDA4 = {
 			isa = PBXGroup;
 			children = (
-				A0D4EDFC221F9E73004CF5E6 /* Cartfile */,
 				A051C08A221E84540029BDA4 /* Transaciones */,
 				A051C089221E84540029BDA4 /* Products */,
 				F281AFE621AB55997C1148A6 /* Pods */,
@@ -102,8 +120,6 @@
 			children = (
 				A051C09E221E92250029BDA4 /* Utils */,
 				A051C09D221E921C0029BDA4 /* Sources */,
-				A051C08B221E84540029BDA4 /* AppDelegate.swift */,
-				A051C097221E84570029BDA4 /* Info.plist */,
 			);
 			path = Transaciones;
 			sourceTree = "<group>";
@@ -122,6 +138,7 @@
 		A051C09E221E92250029BDA4 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				A00311A6221FCD0B0026857D /* Base */,
 				A051C0BA221EA5500029BDA4 /* View */,
 				A051C0A4221E928F0029BDA4 /* Resources */,
 			);
@@ -132,7 +149,6 @@
 			isa = PBXGroup;
 			children = (
 				A051C08F221E84540029BDA4 /* Main.storyboard */,
-				A051C08D221E84540029BDA4 /* ViewController.swift */,
 				A08EC925221F47A80062A52E /* TabBarViewController.swift */,
 			);
 			path = Main;
@@ -142,6 +158,8 @@
 			isa = PBXGroup;
 			children = (
 				A051C094221E84570029BDA4 /* LaunchScreen.storyboard */,
+				A00311AB221FCEF00026857D /* SecondLaunch.storyboard */,
+				A00311AD221FCF5C0026857D /* SecondLaunchViewController.swift */,
 			);
 			path = LanchScreen;
 			sourceTree = "<group>";
@@ -177,6 +195,7 @@
 		A051C0A4221E928F0029BDA4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A00311AF221FCFBF0026857D /* loading.json */,
 				A051C092221E84570029BDA4 /* Assets.xcassets */,
 				A051C0B8221EA0BB0029BDA4 /* Colors.xcassets */,
 			);
@@ -233,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				A051C0B5221E96530029BDA4 /* Auth.storyboard */,
+				A00311B1221FD0C60026857D /* AuthViewController.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -262,7 +282,6 @@
 				ADD47253383784372CF3B35D /* Pods-Transaciones.debug.xcconfig */,
 				1E2C0F0615A06435DB4D8DC9 /* Pods-Transaciones.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -327,20 +346,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0D4EDFD221F9E73004CF5E6 /* Cartfile in Resources */,
 				A051C0B6221E96530029BDA4 /* Auth.storyboard in Resources */,
 				A051C096221E84570029BDA4 /* LaunchScreen.storyboard in Resources */,
 				A051C093221E84570029BDA4 /* Assets.xcassets in Resources */,
 				A051C0B4221E95210029BDA4 /* Profile.storyboard in Resources */,
+				A00311B0221FCFBF0026857D /* loading.json in Resources */,
 				A051C0B1221E94DC0029BDA4 /* Budget.storyboard in Resources */,
+				A00311AC221FCEF00026857D /* SecondLaunch.storyboard in Resources */,
 				A051C0B9221EA0BB0029BDA4 /* Colors.xcassets in Resources */,
 				A08EC910221F3FCA0062A52E /* EmptyState.xib in Resources */,
 				A051C0AD221E94910029BDA4 /* Transactions.storyboard in Resources */,
+				A00311AA221FCD2B0026857D /* Default-568h@2x.png in Resources */,
 				A0D4EDF7221F81D3004CF5E6 /* TransactionsCell.xib in Resources */,
 				A051C0A9221E94400029BDA4 /* Add.storyboard in Resources */,
 				A051C0AF221E94AB0029BDA4 /* Statistics.storyboard in Resources */,
 				A051C091221E84540029BDA4 /* Main.storyboard in Resources */,
 				A08EC936221F48590062A52E /* OnBoarding.storyboard in Resources */,
+				A00311A8221FCD1D0026857D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +408,7 @@
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
 				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
@@ -406,6 +429,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
@@ -450,10 +474,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A00311B2221FD0C60026857D /* AuthViewController.swift in Sources */,
 				A08EC934221F48590062A52E /* OnBoardingContainerViewController.swift in Sources */,
 				A08EC926221F47A80062A52E /* TabBarViewController.swift in Sources */,
 				A08EC90E221F3FC10062A52E /* TransactionsViewController.swift in Sources */,
-				A051C08E221E84540029BDA4 /* ViewController.swift in Sources */,
+				A00311AE221FCF5C0026857D /* SecondLaunchViewController.swift in Sources */,
 				A0D4EDF9221F8328004CF5E6 /* BudgetViewController.swift in Sources */,
 				A08EC933221F48590062A52E /* OnBoardingViewController.swift in Sources */,
 				A051C08C221E84540029BDA4 /* AppDelegate.swift in Sources */,
@@ -616,13 +641,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y99AD5GLT5;
-				INFOPLIST_FILE = Transaciones/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Transaciones/Utils/Base/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.iwebsapp.transactions.Transaciones;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.iwebsapp.finanzas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -636,13 +661,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y99AD5GLT5;
-				INFOPLIST_FILE = Transaciones/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Transaciones/Utils/Base/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.iwebsapp.transactions.Transaciones;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.iwebsapp.finanzas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

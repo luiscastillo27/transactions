@@ -19,5 +19,6 @@ target 'Transaciones' do
   pod 'TwitterKit'
   pod 'TwitterCore'
   pod 'lottie-ios'
+  pod 'IQKeyboardManagerSwift'
 
 end

@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="epg-L8-IKn">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="epg-L8-IKn">
                                 <rect key="frame" x="87.5" y="93.5" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="c52-0s-Q8X"/>
@@ -96,7 +96,7 @@
                                 </connections>
                             </button>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="dgm-ye-m1i">
-                                <rect key="frame" x="168" y="482" width="39" height="37"/>
+                                <rect key="frame" x="168" y="560" width="39" height="37"/>
                                 <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="currentPageIndicatorTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </pageControl>
@@ -109,7 +109,7 @@
                             <constraint firstItem="JKS-VJ-HSc" firstAttribute="leading" secondItem="Qca-qR-EmG" secondAttribute="leading" constant="20" id="Htp-xg-bxG"/>
                             <constraint firstAttribute="bottom" secondItem="gDn-Rx-fBY" secondAttribute="bottom" id="SIf-fX-SHC"/>
                             <constraint firstItem="Qca-qR-EmG" firstAttribute="trailing" secondItem="gDn-Rx-fBY" secondAttribute="trailing" id="aGh-2f-25H"/>
-                            <constraint firstItem="JKS-VJ-HSc" firstAttribute="top" secondItem="dgm-ye-m1i" secondAttribute="bottom" constant="83" id="jqc-Dh-awF"/>
+                            <constraint firstItem="JKS-VJ-HSc" firstAttribute="top" secondItem="dgm-ye-m1i" secondAttribute="bottom" constant="5" id="jqc-Dh-awF"/>
                             <constraint firstItem="dgm-ye-m1i" firstAttribute="centerX" secondItem="OA5-yy-eon" secondAttribute="centerX" id="ks9-w9-KBb"/>
                             <constraint firstItem="Qca-qR-EmG" firstAttribute="trailing" secondItem="JKS-VJ-HSc" secondAttribute="trailing" constant="20" id="sSx-C9-jNI"/>
                         </constraints>

@@ -1,4 +1,5 @@
 PODS:
+  - AccountKit (4.35.0)
   - Bolts (1.9.0):
     - Bolts/AppLinks (= 1.9.0)
     - Bolts/Tasks (= 1.9.0)
@@ -137,12 +138,14 @@ PODS:
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
   - Protobuf (3.6.1)
+  - SVProgressHUD (2.2.5)
   - SwiftyStoreKit (0.14.2)
   - TwitterCore (3.2.0)
   - TwitterKit (3.4.2):
     - TwitterCore (>= 3.2.0)
 
 DEPENDENCIES:
+  - AccountKit
   - Crashlytics
   - Fabric
   - FBSDKLoginKit
@@ -153,12 +156,14 @@ DEPENDENCIES:
   - Firebase/Messaging
   - IQKeyboardManagerSwift
   - lottie-ios
+  - SVProgressHUD
   - SwiftyStoreKit
   - TwitterCore
   - TwitterKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AccountKit
     - Bolts
     - BoringSSL-GRPC
     - Crashlytics
@@ -186,11 +191,13 @@ SPEC REPOS:
     - lottie-ios
     - nanopb
     - Protobuf
+    - SVProgressHUD
     - SwiftyStoreKit
     - TwitterCore
     - TwitterKit
 
 SPEC CHECKSUMS:
+  AccountKit: 870ccaf5d33facda9408783e28fbe68c5211e069
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
   BoringSSL-GRPC: 2a230d9cd93e7ce39916044f645cebb31f37dde6
   Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
@@ -218,10 +225,11 @@ SPEC CHECKSUMS:
   lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftyStoreKit: cc399645796b094022fb650c148a0aed25995873
   TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
   TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
 
-PODFILE CHECKSUM: f2eb204146800ebe415775405d8ec9111e2d782d
+PODFILE CHECKSUM: a60b25a20513a41050780b9829b398b45e3b9e49
 
 COCOAPODS: 1.6.0

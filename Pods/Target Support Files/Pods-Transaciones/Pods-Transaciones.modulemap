@@ -1,6 +1,0 @@
-framework module Pods_Transaciones {
-  umbrella header "Pods-Transaciones-umbrella.h"
-
-  export *
-  module * { export * }
-}
